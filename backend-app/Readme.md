@@ -24,21 +24,21 @@
 
 ## User 
 ```bash
- /user/signup -> Creates a user the database
+ #/user/signup -> Creates a user the database
 
- /user/signin -> Displays token to that user when signing 
+ #/user/signin -> Displays token to that user when signing 
 
- /user/me -> Requires logged-in user passing the token
+ #/user/me -> Requires logged-in user passing the token
 
 ```
 
 ## Pix
 ```bash
- /pix/transactions -> Shows transactions
+ #/pix/transactions -> Shows transactions
  
- /pix/request -> Shows pix key transfer
+ #/pix/request -> Shows pix key transfer
 
- /pix/pay/:id ==> :id -> Is the pix key to perform a transfer
+ #/pix/pay/:id ==> :id -> Is the pix key to perform a transfer
 
 ```
 # Technologies📚
